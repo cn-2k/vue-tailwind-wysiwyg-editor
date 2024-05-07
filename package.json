@@ -1,0 +1,61 @@
+{
+  "name": "vue-tailwind-editor",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "A simple TailwindCSS Vue WYSIWYG editor.",
+  "keywords": [
+    "vue3",
+    "WYSIWYG",
+    "wysiwyg",
+    "tailwind",
+    "vue",
+    "vuejs"
+  ],
+  "main": "./dist/vue-tailwind-editor.js",
+  "module": "./dist/esm/vue-tailwind-editor.js",
+  "types": "./dist/index.d.ts",
+  "typings": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "package.json",
+    "README.md",
+    "global.d.ts"
+  ],
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "run-p type-check \"build-only {@}\" --",
+    "preview": "vite preview",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --build --force"
+  },
+  "peerDependencies": {
+    "@tiptap/extension-document": "^2.3.0",
+    "@tiptap/extension-floating-menu": "^2.3.0",
+    "@tiptap/extension-placeholder": "^2.3.0",
+    "@tiptap/extension-task-item": "^2.3.0",
+    "@tiptap/extension-task-list": "^2.3.0",
+    "@tiptap/extension-text-align": "^2.3.0",
+    "@tiptap/extension-underline": "^2.3.0",
+    "@tiptap/pm": "^2.3.0",
+    "@tiptap/starter-kit": "^2.3.0",
+    "@tiptap/vue-3": "^2.3.0",
+    "@tailwindcss/typography": "^0.5.13",
+    "vue": "^3.3.10"
+  },
+  "devDependencies": {
+    "@tsconfig/node18": "^18.2.4",
+    "@types/node": "^18.19.32",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vue/tsconfig": "^0.5.1",
+    "npm-run-all2": "^6.1.2",
+    "typescript": "~5.4.5",
+    "vite": "^5.2.11",
+    "vite-plugin-dts": "^3.9.1",
+    "vue-tsc": "^2.0.16"
+  },
+  "dependencies": {
+    "@vueuse/core": "^10.9.0"
+  }
+}
