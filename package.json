@@ -1,5 +1,5 @@
 {
-  "name": "vue-tailwind-editor",
+  "name": "vue-tailwind-wysiwyg-editor",
   "version": "1.0.0",
   "license": "MIT",
   "description": "A simple TailwindCSS Vue WYSIWYG editor.",
