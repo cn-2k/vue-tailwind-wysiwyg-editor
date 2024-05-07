@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "license": "MIT",
   "description": "A simple TailwindCSS Vue WYSIWYG editor.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cn-2k/vue-tailwind-wysiwyg-editor.git"
+  },
   "keywords": [
     "vue3",
     "WYSIWYG",
